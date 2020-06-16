@@ -24,5 +24,5 @@ git push -u origin master
 ## Delete Unpushed Git Commit
 All the local committed changes would be dropped and local will be reset to the same as remote origin/master branch.
 ```shell
-git reset --hard origin
+git reset --hard origin/master
 ```
