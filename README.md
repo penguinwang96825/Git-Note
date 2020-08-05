@@ -31,3 +31,7 @@ git reset --hard HEAD~1
 ```shell
 git clone -b <branch> <remote_repo>
 ```
+## Overwrite Existing Tags
+```shell
+git filter-branch --force --index-filter "git rm --cached --ignore-unmatch PATH-TO-YOUR-FILE-WITH-SENSITIVE-DATA" --prune-empty --tag-name-filter cat -- --all
+```
