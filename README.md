@@ -32,6 +32,7 @@ git reset --hard HEAD~1
 git clone -b <branch> <remote_repo>
 ```
 ## Overwrite Existing Tags
+Reference from [GitHub Docs](https://docs.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository).
 ```shell
 git filter-branch --force --index-filter "git rm --cached --ignore-unmatch PATH-TO-YOUR-FILE-WITH-SENSITIVE-DATA" --prune-empty --tag-name-filter cat -- --all
 ```
