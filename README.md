@@ -26,13 +26,13 @@ git push -u origin master
 ## Logging
 
 ```shell
-git log --all --decorate --online --graph
+git log --all --decorate --oneline --graph
 ```
 
 If you want it to be a shortcut, you can do it this way.
 
 ```shell
-alias graph="git log --all --decorate --online --graph"
+alias graph="git log --all --decorate --oneline --graph"
 graph
 ```
 
