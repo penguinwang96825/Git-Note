@@ -2,6 +2,14 @@
 
 Git note.
 
+## Merge
+
+Git refusing to merge unrelated histories on rebase.
+
+```
+git pull --allow-unrelated-histories
+```
+
 ## Connect GitHub and Local
 
 ### Procedure
