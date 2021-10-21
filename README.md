@@ -51,6 +51,12 @@ All the local committed changes would be dropped and local will be reset to the 
 git reset --hard HEAD~1
 ```
 
+To cancel the commit.
+
+```
+git reset @~
+```
+
 ## Clone a Specific Branch
 
 ```shell
